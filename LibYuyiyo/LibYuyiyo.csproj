@@ -65,7 +65,7 @@
     <Compile Include="Entidades\TipoUsuario.cs" />
     <Compile Include="Entidades\Usuario.cs" />
     <Compile Include="Helper\JSONHelper.cs" />
-    <Compile Include="Neg\NegOrdenProducto.cs" />
+    <Compile Include="Neg\NegCliente.cs" />
     <Compile Include="Neg\NegUsuario.cs" />
     <Compile Include="Neg\NegProducto.cs" />
     <Compile Include="Neg\NegProveedor.cs" />
