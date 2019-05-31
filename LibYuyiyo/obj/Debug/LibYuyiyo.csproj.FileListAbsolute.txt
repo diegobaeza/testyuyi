@@ -16,3 +16,9 @@ C:\Users\diegobaezaj\source\repos\TestYuyito\AlmaYuyito\LibYuyiyo\obj\Debug\LibY
 C:\Users\diegobaezaj\source\repos\TestYuyito\AlmaYuyito\LibYuyiyo\obj\Debug\LibYuyiyo.csproj.CoreCompileInputs.cache
 C:\Users\diegobaezaj\source\repos\TestYuyito\AlmaYuyito\LibYuyiyo\obj\Debug\LibYuyiyo.dll
 C:\Users\diegobaezaj\source\repos\TestYuyito\AlmaYuyito\LibYuyiyo\obj\Debug\LibYuyiyo.pdb
+C:\Users\Ariel\Downloads\AlmaYuyito\AlmaYuyito\LibYuyiyo\bin\Debug\LibYuyiyo.dll
+C:\Users\Ariel\Downloads\AlmaYuyito\AlmaYuyito\LibYuyiyo\bin\Debug\LibYuyiyo.pdb
+C:\Users\Ariel\Downloads\AlmaYuyito\AlmaYuyito\LibYuyiyo\obj\Debug\LibYuyiyo.csprojAssemblyReference.cache
+C:\Users\Ariel\Downloads\AlmaYuyito\AlmaYuyito\LibYuyiyo\obj\Debug\LibYuyiyo.csproj.CoreCompileInputs.cache
+C:\Users\Ariel\Downloads\AlmaYuyito\AlmaYuyito\LibYuyiyo\obj\Debug\LibYuyiyo.dll
+C:\Users\Ariel\Downloads\AlmaYuyito\AlmaYuyito\LibYuyiyo\obj\Debug\LibYuyiyo.pdb

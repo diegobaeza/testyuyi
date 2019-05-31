@@ -16,7 +16,12 @@ namespace LibYuyiyo.Entidades
         private int usuario_id;
         private int proveedor_id;
 
-       
+        public OrdenProducto(int id)
+        {
+            this.Id = id;
+
+        }
+
         public OrdenProducto(int id, DateTime fecha_recepcion, DateTime fecha_emision, char estado, int total, int usuario_id, int proveedor_id)
         {
             this.Id = id;
@@ -26,6 +31,16 @@ namespace LibYuyiyo.Entidades
 			this.Total = total;
 			this.Usuario_id = usuario_id;
 			this.Proveedor_id = proveedor_id;
+        }
+
+        public OrdenProducto( DateTime fecha_recepcion, DateTime fecha_emision, char estado, int total, int usuario_id, int proveedor_id)
+        {
+            this.Fecha_recepcion = fecha_emision;
+            this.Fecha_emision = fecha_emision;
+            this.Estado = estado;
+            this.Total = total;
+            this.Usuario_id = usuario_id;
+            this.Proveedor_id = proveedor_id;
         }
 
         public int Id { get => id; set => id = value; }

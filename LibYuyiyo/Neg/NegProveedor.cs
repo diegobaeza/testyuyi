@@ -38,6 +38,11 @@ namespace LibYuyiyo.Neg
 
         }
 
+        public static System.Data.DataTable listarTodos()
+        {
+            return DaoProveedor.sqlLeerTodos();
+        }
+
         public static bool ActualizarProveedor(Proveedor proveedor )
         {
             int respuesta = 0;
