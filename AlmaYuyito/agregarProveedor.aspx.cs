@@ -25,7 +25,7 @@ namespace AlmaYuyito
                     txtTelefono.Attributes["placeholder"] = proveedor.Telefono.ToString();
                     ddRubro.SelectedValue = proveedor.Rubro_id.ToString();
                     btnAgregar.Text = "Modificar";
-  
+
                 }
 
                 if (!IsPostBack)
@@ -66,7 +66,7 @@ namespace AlmaYuyito
 
             else if (txtNombre.Text.Length > 20)
             {
-                lblErrNom.Text = "Nombre demasiado largo.";
+                lblErrNom.Text = "Nombre demaciado largo.";
                 lblErrNom.Visible = true;
 
                 return;
@@ -126,7 +126,7 @@ namespace AlmaYuyito
 
             else if(txtTelefono.Text.Length > 9)
             {
-                lblErrTel.Text = "Telefono ingresado demasiado largo.";
+                lblErrTel.Text = "Telefono ingresado demaciado largo.";
                 lblErrTel.Visible = true;
 
                 return;

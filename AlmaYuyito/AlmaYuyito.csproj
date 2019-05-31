@@ -71,7 +71,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="AgregarOrdenProducto.aspx" />
+    <Content Include="AgregarCliente.aspx" />
     <Content Include="AgregarProducto.aspx" />
     <Content Include="agregarProveedor.aspx" />
     <Content Include="agregarRubro.aspx" />
@@ -96,12 +96,12 @@
     <Content Include="js\script.js" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AgregarOrdenProducto.aspx.cs">
-      <DependentUpon>AgregarOrdenProducto.aspx</DependentUpon>
+    <Compile Include="AgregarCliente.aspx.cs">
+      <DependentUpon>AgregarCliente.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AgregarOrdenProducto.aspx.designer.cs">
-      <DependentUpon>AgregarOrdenProducto.aspx</DependentUpon>
+    <Compile Include="AgregarCliente.aspx.designer.cs">
+      <DependentUpon>AgregarCliente.aspx</DependentUpon>
     </Compile>
     <Compile Include="AgregarProducto.aspx.cs">
       <DependentUpon>AgregarProducto.aspx</DependentUpon>

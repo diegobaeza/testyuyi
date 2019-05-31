@@ -10,43 +10,61 @@
 namespace AlmaYuyito {
     
     
-    public partial class AgregarOrdenProducto {
+    public partial class AgregarCliente {
         
         /// <summary>
-        /// Control lblErrFecR.
+        /// Control lblErrNom.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblErrFecR;
+        protected global::System.Web.UI.WebControls.Label lblErrNom;
         
         /// <summary>
-        /// Control txtFechaR.
+        /// Control TxtNombre.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtFechaR;
+        protected global::System.Web.UI.WebControls.TextBox TxtNombre;
         
         /// <summary>
-        /// Control lblErrFecE.
+        /// Control lblErrApe.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblErrFecE;
+        protected global::System.Web.UI.WebControls.Label lblErrApe;
         
         /// <summary>
-        /// Control txtFechaE.
+        /// Control TxtApellido.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtFechaE;
+        protected global::System.Web.UI.WebControls.TextBox TxtApellido;
+        
+        /// <summary>
+        /// Control lblErrRut.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblErrRut;
+        
+        /// <summary>
+        /// Control TxtRut.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TxtRut;
         
         /// <summary>
         /// Control lblErrEst.
@@ -58,67 +76,13 @@ namespace AlmaYuyito {
         protected global::System.Web.UI.WebControls.Label lblErrEst;
         
         /// <summary>
-        /// Control txtEstado.
+        /// Control TxtEstado.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtEstado;
-        
-        /// <summary>
-        /// Control lblErrTot.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblErrTot;
-        
-        /// <summary>
-        /// Control txtTotal.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtTotal;
-        
-        /// <summary>
-        /// Control lblErrUsu.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblErrUsu;
-        
-        /// <summary>
-        /// Control ddUsuario.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddUsuario;
-        
-        /// <summary>
-        /// Control lblErrPro.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblErrPro;
-        
-        /// <summary>
-        /// Control ddProveedor.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddProveedor;
+        protected global::System.Web.UI.WebControls.TextBox TxtEstado;
         
         /// <summary>
         /// Control btnAgregar.
