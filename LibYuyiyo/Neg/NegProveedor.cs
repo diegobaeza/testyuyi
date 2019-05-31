@@ -56,6 +56,11 @@ namespace LibYuyiyo.Neg
 
         }
 
+        public static System.Data.DataTable listarTodos()
+        {
+            return DaoProveedor.sqlLeerTodos();
+        }
+
         public static Proveedor buscarProveedor(Proveedor proveedor)
         {
             DataTable dt = DaoProveedor.sqlLeer(proveedor);
