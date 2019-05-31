@@ -53,18 +53,6 @@
             <nav id="menu-lateral">
                 <ul id="ul-lateral" class="list-group" style="list-style: none;">
                     <li>
-                        <a id="m_clientes" onclick="mostrarSubmenu('sub-clientes')" href="#"><i class="item-menu-icon fas fa-truck-moving"></i>
-                            <p class="item-menu-text">Clientes</p>
-                        </a>
-                        <ul id="sub-clientes" class="sub-menu">
-                            <li>
-                                <a href="AgregarCliente.aspx">
-                                    <p class="item-menu-text">Agregar</p>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
                         <a id="m-proveedores" onclick="mostrarSubmenu('sub-proveedores')" href="#"><i class="item-menu-icon fas fa-truck-moving"></i>
                             <p class="item-menu-text">Proveedores</p>
                         </a>
@@ -81,7 +69,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="AgregarOrdenProducto.aspx">
                                     <p class="item-menu-text">Ordenes de Pedido</p>
                                 </a>
                             </li>
